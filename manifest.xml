@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://github.com/diggieman"
+          name="diggieman"
+          revision="lineage-23.2" />
+
+  <!--Sync required hals and sepolicy-->
+  <project path="device/mediatek/sepolicy_vndr" name="MillenniumOSS/android_device_mediatek_sepolicy_vndr" remote="github" revision="sixteen-qpr2-rebase" />
+  <project path="hardware/mediatek" name="MillenniumOSS/android_hardware_mediatek" remote="github" revision="sixteen" />
+
+  <!-- Sync common mediatek IMS-->
+  <project path="vendor/mediatek/ims" name="android_vendor_mediatek_ims" remote="diggieman" revision="android-16-qpr2" />
+
+  <!-- Sync T812 trees -->
+  <project path="device/advan/T812-kernel" name="android_device_advan_T812-kernel" remote="diggieman" />
+  <project path="device/advan/T812" name="android_device_advan_T812" remote="diggieman" />
+  <project path="vendor/advan/T812" name="android_vendor_advan_T812" remote="diggieman" />
+
+  <!--Patched native framework to enable mediatek GED KPI-->
+  <remove-project path="frameworks/native" />
+  <project path="frameworks/native" name="frameworks_native_EVOX" remote="diggieman" revision="bka" />
+
+
+</manifest>
