@@ -16,9 +16,4 @@
   <project path="device/advan/T812" name="android_device_advan_T812" remote="diggieman" />
   <project path="vendor/advan/T812" name="android_vendor_advan_T812" remote="diggieman" />
 
-  <!--Patched native framework to enable mediatek GED KPI-->
-  <remove-project path="frameworks/native" />
-  <project path="frameworks/native" name="frameworks_native_EVOX" remote="diggieman" revision="bka" />
-
-
 </manifest>
