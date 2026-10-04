@@ -2,11 +2,11 @@
 <manifest>
   <remote fetch="https://github.com/diggieman"
           name="diggieman"
-          revision="lineage-23.2" />
+          revision="lineage-24.0" />
 
   <remote fetch="https://github.com/LineageOS"
           name="lineageos"
-          revision="lineage-23.2" />
+          revision="lineage-24.0" />
 
   <!--Sync required hals and sepolicy-->
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="lineageos" />
