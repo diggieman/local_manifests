@@ -2,11 +2,11 @@
 <manifest>
   <remote fetch="https://github.com/diggieman"
           name="diggieman"
-          revision="lineage-23.2" />
+          revision="lineage-24.0" />
 
   <!--Sync required hals and sepolicy-->
-  <project path="device/mediatek/sepolicy_vndr" name="MillenniumOSS/android_device_mediatek_sepolicy_vndr" remote="github" revision="sixteen-qpr2-rebase" />
-  <project path="hardware/mediatek" name="MillenniumOSS/android_hardware_mediatek" remote="github" revision="sixteen" />
+  <project path="device/mediatek/sepolicy_vndr" name="MillenniumOSS/android_device_mediatek_sepolicy_vndr" remote="github" revision="seventeen" />
+  <project path="hardware/mediatek" name="MillenniumOSS/android_hardware_mediatek" remote="github" revision="seventeen" />
 
   <!-- Sync common mediatek IMS-->
   <project path="vendor/mediatek/ims" name="android_vendor_mediatek_ims" remote="diggieman" revision="android-16-qpr2" />
